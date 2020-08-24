@@ -205,10 +205,10 @@ public class AlgorithmSort {
     代码思路：
         希尔增量一般是gap = gap / 2，只是比普通版插入排序多了这么一个for循环而已。
      */
-    /*public static void shellSort(double[] nums) {
+    public static void shellSort(double[] nums) {
        //boolean isOdd = (nums.length%2)==0 ? false : true;  //是否为奇数
         //int gap = nums.length/2;    //步长
-        for(int gap=nums.length/2;gap>0;gap/=2){
+        /*for(int gap=nums.length/2;gap>0;gap/=2){
             double temp = 0;    //临时变量
             int index = 0;    //光标
             for(int i=0;i<nums.length;i+=gap){
@@ -222,8 +222,9 @@ public class AlgorithmSort {
                 }
                 nums[index] = temp;
             }
-        }
-    }*/
+        }*/
+        //修改了
+    }
 
     /*
     八.基数排序(桶排序)
